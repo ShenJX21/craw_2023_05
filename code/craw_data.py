@@ -22,7 +22,7 @@ from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 def main():
     start_date = date(2023, 5, 1)
     #end_date = date(2023, 6, 1)
-    end_date = datetime.date.today()-datetime.timedelta(days=1)
+    end_date = datetime.date.today()
     craw_data(start_date, end_date)
 
 
